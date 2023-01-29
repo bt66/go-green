@@ -15,6 +15,7 @@ curl -H "Accept: application/vnd.github.everest-preview+json" \
 ```
 
 <p>so if i need to trigger this github action in this repository, the request will look like bellow :</p>
+
 ```bash
 curl -H "Accept: application/vnd.github.everest-preview+json" \
     -H "Authorization: token <replace this with github token>" \
